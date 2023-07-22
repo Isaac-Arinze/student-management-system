@@ -6,7 +6,7 @@ import com.zikan.studentmanagementsystem.entity.Student;
 public class StudentMapper {
 
 //    We are converting student dto to java object
-    public static StudentDto mapToStudentSto(Student student){
+    public static StudentDto mapToStudentDto(Student student){
         StudentDto studentDto = new StudentDto(
 
         student.getId(),
